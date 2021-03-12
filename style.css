@@ -19,6 +19,15 @@ nav {
 .nav-menu li {
   display: inline-block;
   font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+.first {
+  padding-top: 20px;
+}
+
+.second {
+  padding-top: 25px;
 }
 
 #logo1 {
@@ -34,6 +43,14 @@ nav {
 #logo2 {
   padding-top: 10px;
   padding-left: 340px;
+}
+
+#history {
+  padding-right: 45px;
+}
+
+#team {
+  padding-right: 320px;
 }
 
 .history {
