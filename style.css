@@ -120,6 +120,20 @@ nav {
   background-image: url("images/img5.png");
   height: 545px;
   width: 1600px;
+  display: flex;
+}
+
+.container {
+  background-color: #fff;
+  width: 350px;
+  height: 230px;
+  opacity: 0.5;
+}
+
+.container h2 {
+  font-family: "Oswald", sans-serif;
+  color: #414f6b;
+  font-size: 32px;
 }
 
 .footer {
