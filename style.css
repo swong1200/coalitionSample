@@ -8,6 +8,7 @@ header {
   background-image: url("images/img1.png");
   height: 825px;
   width: 1600px;
+  color: #fff;
 }
 
 nav {
@@ -27,6 +28,7 @@ nav {
 .nav2 {
   width: 1600px;
   height: 75px;
+  color: #414f6b;
 }
 
 #logo2 {
