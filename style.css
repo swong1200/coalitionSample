@@ -59,6 +59,18 @@ nav {
   width: 1600px;
 }
 
+.history h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+.history h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+.history p {
+  font-family: "Lato", sans-serif;
+}
+
 .climb {
   height: 185px;
   width: 1600px;
