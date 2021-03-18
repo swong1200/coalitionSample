@@ -38,7 +38,6 @@ nav {
   padding-left: 340px;
   height: 25%;
   width: 21%;
-
 }
 
 .nav2 {
@@ -64,7 +63,8 @@ nav {
   background-image: url("images/img3.png");
   background-size: cover;
   height: 905px;
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr minmax(50px, 195px);
 }
 
 .history h1 {
@@ -80,26 +80,26 @@ nav {
   font-family: "Oswald", sans-serif;
   color: #414f6b;
   font-size: 32px;
-  position: relative;
-  top: 155px;
-  left: -28px;
+  margin-top: -87px;
+  padding-left: 457px;
 }
 
 .history p {
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  
-  top: 220px;
-  right: 290px;
+  margin: -140px 375px;
 }
 
-.slideshow {
+#slideshow {
   background-color: #414f6b;
   width: 100%;
   opacity: 0.8;
-  height: 195px;
-  position: relative;
-  top: 710px;
+}
+
+.carousel-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 
 .climb {
@@ -158,7 +158,6 @@ nav {
 #mountain2 {
   position: relative;
   left: 350px;
-  
 }
 
 .schedule {
@@ -166,7 +165,6 @@ nav {
   background-size: cover;
   height: 545px;
   display: flex;
-  
 }
 
 .calendar {
