@@ -5,5 +5,11 @@ const schedule = $(".schedule");
 const schedule2 = $(".schedule2");
 
 mountain2.click(() => {
-  console.log("hello");
+  schedule.hide();
+  schedule2.show();
+});
+
+mountain1.click(() => {
+  schedule2.hide();
+  schedule.show();
 });
