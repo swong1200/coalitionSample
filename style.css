@@ -180,10 +180,6 @@ nav {
   left: 350px;
 }
 
-.opacity {
-  opacity: 1;
-}
-
 .calendar h2 {
   font-family: "Oswald", sans-serif;
   color: #414f6b;
@@ -201,7 +197,6 @@ nav {
 .calendar ul li {
   list-style: none;
   font-family: "Lato", sans-serif;
-  opacity: 1;
 }
 
 #dates {
@@ -218,10 +213,9 @@ nav {
 }
 
 .calendar2 {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
   width: 350px;
   height: 230px;
-  opacity: 0.5;
   position: relative;
   top: 100px;
   left: 350px;
