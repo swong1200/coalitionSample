@@ -151,8 +151,12 @@ nav {
   background-color: #afb3bd;
   position: relative;
   left: 320px;
-  text-decoration-color: #414f6b;
   height: 40px;
+}
+
+#mountain1 h2 {
+  color: #414f6b;
+  text-decoration: underline;
 }
 
 #mountain2 {
