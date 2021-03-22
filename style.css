@@ -158,11 +158,13 @@ nav {
 #mountain1 h2 {
   color: #414f6b;
   text-decoration: underline;
+  padding: 0px 20px;
 }
 
 #mountain2 {
   position: relative;
-  left: 350px;
+  left: 330px;
+  padding: 0px 20px;
 }
 
 .schedule {
