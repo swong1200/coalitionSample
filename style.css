@@ -97,8 +97,12 @@ nav {
   opacity: 0.8;
 }
 
+.carousel-inner {
+  padding: 25px 429px;
+}
+
 .carousel-item img {
-  width: 150px;
+  width: 250px;
   height: 150px;
   object-fit: cover;
 }
