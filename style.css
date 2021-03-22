@@ -49,6 +49,7 @@ nav {
 #logo2 {
   padding-top: 10px;
   padding-left: 340px;
+  height: 25%;
 }
 
 #history {
@@ -105,7 +106,8 @@ nav {
 .climb {
   background-size: cover;
   height: 185px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .climb h1 {
@@ -120,17 +122,16 @@ nav {
   font-family: "Oswald", sans-serif;
   color: #414f6b;
   font-size: 32px;
-  position: relative;
-  top: 85px;
-  left: -28px;
+  margin-top: -87px;
+  padding-left: 474px;
 }
 
 .climb p {
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  position: relative;
-  top: 60px;
-  right: 85px;
+  padding: 100px;
+  margin-top: -35px;
+  margin-left: -140px;
 }
 
 .mountain {
@@ -251,6 +252,11 @@ nav {
   height: 70px;
   display: flex;
   justify-content: space-between;
+}
+
+#logo3 {
+  padding-top: 10px;
+  padding-left: 340px;
 }
 
 .footer p {
