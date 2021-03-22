@@ -153,18 +153,23 @@ nav {
   position: relative;
   left: 320px;
   height: 40px;
+  padding: 0px 20px;
 }
 
 #mountain1 h2 {
   color: #414f6b;
   text-decoration: underline;
-  padding: 0px 20px;
+  cursor: pointer;
 }
 
 #mountain2 {
   position: relative;
   left: 330px;
   padding: 0px 20px;
+}
+
+#mountain2 h2 {
+  cursor: pointer;
 }
 
 .schedule {
