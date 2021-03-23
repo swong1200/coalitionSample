@@ -107,6 +107,13 @@ nav {
   object-fit: cover;
 }
 
+.carousel-indicators li {
+  margin-bottom: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
 .climb {
   background-size: cover;
   height: 185px;
