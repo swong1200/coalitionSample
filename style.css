@@ -98,19 +98,21 @@ nav {
 }
 
 .carousel-inner {
-  padding: 25px 429px;
+  padding: 25px 459px;
 }
 
 .carousel-item img {
-  width: 250px;
-  height: 150px;
+  width: 235px;
+  height: 135px;
   object-fit: cover;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .carousel-indicators li {
-  margin-bottom: -15px;
-  width: 10px;
-  height: 10px;
+  margin-bottom: -18px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
 }
 
