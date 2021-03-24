@@ -30,10 +30,6 @@ nav {
   padding-top: 20px;
 }
 
-.second {
-  padding-top: 25px;
-}
-
 #logo1 {
   padding-left: 340px;
   height: 25%;
@@ -263,16 +259,19 @@ nav {
 }
 
 #logo3 {
-  padding-top: 10px;
+  margin-top: 15px;
   padding-left: 330px;
+  width: 26.3%;
+  height: 42px;
+  object-fit: cover;
 }
 
 .footer p {
   font-family: "Lato", sans-serif;
   font-style: italic;
   color: #63769d;
-  padding-right: 320px;
-  padding-top: 30px;
+  padding-right: 300px;
+  padding-top: 25px;
 }
 
 .push {
@@ -291,7 +290,11 @@ nav {
 }
 
 #logo2 {
-  padding-top: 10px;
+  padding-top: 35px;
   padding-left: 340px;
   height: 25%;
+}
+
+.second {
+  padding-top: 45px;
 }
