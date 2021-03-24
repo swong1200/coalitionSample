@@ -40,18 +40,6 @@ nav {
   width: 21%;
 }
 
-.nav2 {
-  background-size: cover;
-  height: 75px;
-  color: #414f6b;
-}
-
-#logo2 {
-  padding-top: 10px;
-  padding-left: 340px;
-  height: 25%;
-}
-
 #history {
   padding-right: 45px;
 }
@@ -276,7 +264,7 @@ nav {
 
 #logo3 {
   padding-top: 10px;
-  padding-left: 340px;
+  padding-left: 330px;
 }
 
 .footer p {
@@ -285,4 +273,25 @@ nav {
   color: #63769d;
   padding-right: 320px;
   padding-top: 30px;
+}
+
+.push {
+  height: 112px;
+}
+
+.stickyNav {
+  background-color: #fff;
+  background-size: cover;
+  height: 112px;
+  color: #414f6b;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#logo2 {
+  padding-top: 10px;
+  padding-left: 340px;
+  height: 25%;
 }
