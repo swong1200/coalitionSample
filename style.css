@@ -7,8 +7,18 @@
 header {
   background-image: url("images/img1.png");
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
   height: 825px;
   color: #fff;
+}
+
+@media (max-width: 940px) {
+  header {
+    background-size: contain;
+    background-position: top;
+  }
 }
 
 nav {
