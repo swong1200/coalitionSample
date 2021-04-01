@@ -10,15 +10,9 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  height: 825px;
+  height: 51.5625em;
+  width: 100%;
   color: #fff;
-}
-
-@media (max-width: 940px) {
-  header {
-    background-size: contain;
-    background-position: top;
-  }
 }
 
 nav {
@@ -30,6 +24,7 @@ nav {
   display: inline-block;
   font-family: "Lato", sans-serif;
   font-style: italic;
+  font-size: 1em;
 }
 
 .nav-menu li a {
@@ -37,52 +32,59 @@ nav {
 }
 
 .first {
-  padding-top: 20px;
+  padding-top: 1.25em;
 }
 
 #logo1 {
-  padding-left: 340px;
-  height: 25%;
-  width: 21%;
+  padding-left: 20%;
+  height: fit-content;
+  width: 23%;
 }
 
 #history {
-  padding-right: 45px;
+  padding-right: 2.8125em;
 }
 
 #team {
-  padding-right: 320px;
+  padding-right: 20em;
 }
 
 .history {
   background-image: url("images/img3.png");
   background-size: cover;
-  height: 905px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 56.5625em;
   display: grid;
   grid-template-rows: 1fr 1fr minmax(50px, 195px);
+}
+
+#one {
+  margin-top: 3.73%;
+  margin-left: 16%;
 }
 
 .history h1 {
   font-family: "Oswald", sans-serif;
   color: #414f6b;
-  font-size: 136px;
-  padding-top: 70px;
-  padding-left: 325px;
+  font-size: 8.5em;
   opacity: 0.5;
 }
 
 .history h2 {
   font-family: "Oswald", sans-serif;
   color: #414f6b;
-  font-size: 32px;
-  margin-top: -87px;
-  padding-left: 457px;
+  font-size: 2em;
+  position: relative;
+  top: 2.7em;
+  left: -0.9em;
 }
 
 .history p {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
-  margin: -140px 375px;
+  font-size: 1em;
+  margin: -8.75em 23.4375em 23.4375em 23.4375em;
+  position: relative;
 }
 
 #slideshow {
@@ -112,30 +114,35 @@ nav {
 
 .climb {
   background-size: cover;
-  height: 185px;
+  height: 11.5625em;
   display: grid;
   grid-template-columns: 1fr 2fr;
+}
+
+#two {
+  margin-left: 47%;
 }
 
 .climb h1 {
   font-family: "Oswald", sans-serif;
   color: #414f6b;
-  font-size: 136px;
-  padding-left: 325px;
+  font-size: 8.5em;
+  position: relative;
   opacity: 0.5;
 }
 
 .climb h2 {
   font-family: "Oswald", sans-serif;
   color: #414f6b;
-  font-size: 32px;
-  margin-top: -87px;
-  padding-left: 474px;
+  font-size: 2em;
+  position: relative;
+  top: -2.65em;
+  left: 4.7em;
 }
 
 .climb p {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   padding: 100px;
   margin-top: -35px;
   margin-left: -140px;
@@ -307,4 +314,454 @@ nav {
 
 .second {
   padding-top: 45px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  header {
+    background-image: url("images/img1.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 51.5625em;
+
+    color: #fff;
+  }
+
+  /* @media (max-width: 768px) {
+    header {
+      background-size: contain;
+      background-position: top;
+    }
+  } */
+
+  /* // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... } */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-menu li {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-size: 1em;
+  }
+
+  .nav-menu li a {
+    color: inherit;
+  }
+
+  .first {
+    padding-top: 1.25em;
+  }
+
+  #logo1 {
+    padding-left: 20%;
+    height: fit-content;
+    width: 23%;
+  }
+
+  #history {
+    padding-right: 2.8125em;
+  }
+
+  #team {
+    padding-right: 20em;
+  }
+
+  .history {
+    background-image: url("images/img3.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 56.5625em;
+    display: grid;
+    grid-template-rows: 1fr 1fr minmax(50px, 195px);
+  }
+
+  /* @media (max-width: 940px) {
+    .history {
+      background-size: contain;
+      margin-top: -500px;
+    }
+  } */
+
+  #one {
+    padding-top: 3.73%;
+    /* padding-left: 17.3%; */
+    margin-left: -35%;
+  }
+
+  .history h1 {
+    font-family: "Oswald", sans-serif;
+    color: #414f6b;
+    font-size: 8.5em;
+    opacity: 0.5;
+  }
+
+  .history h2 {
+    font-family: "Oswald", sans-serif;
+    color: #414f6b;
+    font-size: 2em;
+    position: relative;
+    top: -2.65em;
+    left: 4.1em;
+  }
+
+  .history p {
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+    margin: -8.75em 23.4375em 23.4375em 23.4375em;
+    position: relative;
+    /* top: -8.75em; */
+    /* left: 23.4375em; */
+    /* right: 23.4375em; */
+  }
+
+  #slideshow {
+    background-color: #414f6b;
+    width: 100%;
+    opacity: 0.8;
+  }
+
+  .carousel-inner {
+    padding: 25px 459px;
+  }
+
+  .carousel-item img {
+    width: 235px;
+    height: 135px;
+    object-fit: cover;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .carousel-indicators li {
+    margin-bottom: -18px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+  }
+
+  .climb {
+    background-size: cover;
+    height: 11.5625em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  #one {
+    padding-left: 52%;
+  }
+
+  .climb h1 {
+    font-family: "Oswald", sans-serif;
+    color: #414f6b;
+    font-size: 8.5em;
+    position: relative;
+    opacity: 0.5;
+  }
+
+  .climb h2 {
+    font-family: "Oswald", sans-serif;
+    color: #414f6b;
+    font-size: 2em;
+    position: relative;
+    top: -2.65em;
+    left: 7.6em;
+  }
+
+  .climb p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    padding: 100px;
+    margin-top: -35px;
+    margin-left: -140px;
+  }
+
+  .mountain {
+    background-color: #414f6b;
+    background-size: cover;
+    height: 40px;
+  }
+
+  .mountain h2 {
+    font-family: "Oswald", sans-serif;
+    color: #afb3bd;
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+  }
+
+  #mountain1 {
+    background-color: #afb3bd;
+    position: relative;
+    left: 320px;
+    height: 40px;
+    padding: 0px 20px;
+  }
+
+  #mountain1 h2 {
+    color: #414f6b;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  #mountain2 {
+    position: relative;
+    left: 330px;
+    padding: 0px 20px;
+  }
+
+  #mountain2 h2 {
+    cursor: pointer;
+  }
+
+  .schedule {
+    background-image: url("images/img5.png");
+    background-size: cover;
+    height: 545px;
+    display: flex;
+  }
+
+  .calendar {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 350px;
+    height: 230px;
+    position: relative;
+    top: 100px;
+    left: 350px;
+  }
+
+  .calendar h2 {
+    font-family: "Oswald", sans-serif;
+    color: #414f6b;
+    font-size: 32px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+  }
+
+  .calendar ul {
+    position: relative;
+    top: 20px;
+  }
+
+  .calendar ul li {
+    list-style: none;
+    font-family: "Lato", sans-serif;
+  }
+
+  #dates {
+    position: relative;
+    left: 40px;
+  }
+
+  .schedule2 {
+    background-image: url("images/img6.png");
+    background-size: cover;
+    height: 545px;
+    display: flex;
+    display: none;
+  }
+
+  .calendar2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 350px;
+    height: 230px;
+    position: relative;
+    top: 100px;
+    left: 350px;
+  }
+
+  .calendar2 h2 {
+    font-family: "Oswald", sans-serif;
+    color: #414f6b;
+    font-size: 32px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+  }
+
+  .calendar2 ul {
+    position: relative;
+    top: 20px;
+  }
+
+  .calendar2 ul li {
+    list-style: none;
+    font-family: "Lato", sans-serif;
+  }
+
+  #dates2 {
+    position: relative;
+    left: 40px;
+  }
+
+  .footer {
+    background-color: #414f6b;
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo3 {
+    margin-top: 15px;
+    padding-left: 330px;
+    width: 26.3%;
+    height: 42px;
+    object-fit: cover;
+  }
+
+  .footer p {
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    color: #63769d;
+    padding-right: 300px;
+    padding-top: 25px;
+  }
+
+  .push {
+    height: 112px;
+  }
+
+  .stickyNav {
+    background-color: #fff;
+    background-size: cover;
+    height: 112px;
+    color: #414f6b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #logo2 {
+    padding-top: 35px;
+    padding-left: 340px;
+    height: 25%;
+  }
+
+  .second {
+    padding-top: 45px;
+  }
+}
+/* Medium devices (tablets, 801px and up) */
+@media (max-width: 801px) {
+  header {
+    height: 650px;
+    width: 801px;
+  }
+
+  #logo1 {
+    height: fit-content;
+    width: 26%;
+  }
+
+  .history p {
+    top: 2.75em;
+    left: -6em;
+  }
+
+  /* .carousel-inner {
+  } */
+
+  .carousel-item img {
+    width: 135px;
+    height: 85px;
+    object-fit: cover;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .carousel-indicators li {
+    margin-bottom: -18px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+  }
+
+  .climb {
+    background-size: cover;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .climb p {
+    padding: 10px;
+    position: relative;
+    top: 170px;
+  }
+
+  #mountain1 {
+    left: 200px;
+  }
+
+  #mountain2 {
+    left: 210px;
+  }
+
+  .schedule {
+    height: 400px;
+  }
+
+  .calendar {
+    top: 80px;
+    left: 150px;
+  }
+
+  .schedule2 {
+    height: 400px;
+  }
+
+  .calendar2 {
+    top: 80px;
+    left: 150px;
+  }
+
+  #logo3 {
+    margin-left: -150px;
+    width: 65%;
+  }
+
+  .footer p {
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    color: #63769d;
+    padding-right: 300px;
+    padding-top: 25px;
+  }
+
+  .push {
+    height: 112px;
+  }
+
+  .stickyNav {
+    background-color: #fff;
+    background-size: cover;
+    height: 112px;
+    color: #414f6b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #logo2 {
+    padding-top: 35px;
+    padding-left: 340px;
+    height: 25%;
+  }
+
+  .second {
+    padding-top: 45px;
+  }
 }
