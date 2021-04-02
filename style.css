@@ -10,7 +10,7 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  height: 51.5625em;
+  height: 825px;
   width: 100%;
   color: #fff;
 }
@@ -54,7 +54,7 @@ nav {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 56.5625em;
+  height: 905px;
   display: grid;
   grid-template-rows: 1fr 1fr minmax(50px, 195px);
 }
@@ -277,9 +277,9 @@ nav {
 
 #logo3 {
   margin-top: 15px;
-  padding-left: 330px;
-  width: 26.3%;
-  height: 42px;
+  padding-left: 350px;
+  width: 26.8%;
+  height: 44px;
   object-fit: cover;
 }
 
@@ -655,30 +655,45 @@ nav {
 }
 /* Medium devices (tablets, 801px and up) */
 @media (max-width: 801px) {
+  .container-fluid {
+    overflow-x: hidden;
+  }
+
   header {
     height: 650px;
-    width: 801px;
+    width: 1024px;
+    margin-left: -50px;
   }
 
   #logo1 {
     height: fit-content;
-    width: 26%;
+    width: 25%;
+  }
+
+  .history {
+    /* height: 710px; */
+    width: 1024px;
+    grid-template-rows: 1fr 3fr 1fr;
   }
 
   .history p {
-    top: 2.75em;
-    left: -6em;
+    top: 110px;
+    left: -100px;
+  }
+
+  .slideshow {
+    height: 5px;
   }
 
   /* .carousel-inner {
   } */
 
   .carousel-item img {
-    width: 135px;
-    height: 85px;
+    width: 85px;
+    height: 55px;
     object-fit: cover;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .carousel-indicators li {
@@ -689,16 +704,20 @@ nav {
   }
 
   .climb {
-    background-size: cover;
-    height: 350px;
+    height: 260px;
+    width: 1024px;
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
 
   .climb p {
-    padding: 10px;
+    padding: 10px 200px 10px 10px;
     position: relative;
     top: 170px;
+  }
+
+  .mountain {
+    width: 1024px;
   }
 
   #mountain1 {
@@ -711,6 +730,7 @@ nav {
 
   .schedule {
     height: 400px;
+    width: 1024px;
   }
 
   .calendar {
@@ -720,6 +740,7 @@ nav {
 
   .schedule2 {
     height: 400px;
+    width: 1024px;
   }
 
   .calendar2 {
@@ -727,41 +748,45 @@ nav {
     left: 150px;
   }
 
-  #logo3 {
-    margin-left: -150px;
-    width: 65%;
+  .footer {
+    width: 1024px;
   }
 
-  .footer p {
-    font-family: "Lato", sans-serif;
-    font-style: italic;
-    color: #63769d;
-    padding-right: 300px;
-    padding-top: 25px;
+  #logo3 {
+    padding-left: 0px;
+    width: 150px;
+  }
+
+  .footer img {
+    margin-top: -40px;
+    margin-left: 180px;
+  }
+
+  .footer span {
+    margin-top: -60px;
+    margin-left: 440px;
+  }
+
+  .text-nowrap {
+    white-space: nowrap;
   }
 
   .push {
-    height: 112px;
+    height: 75px;
   }
 
   .stickyNav {
-    background-color: #fff;
-    background-size: cover;
-    height: 112px;
-    color: #414f6b;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    height: 75px;
   }
 
   #logo2 {
-    padding-top: 35px;
-    padding-left: 340px;
+    padding-top: 15px;
+    padding-left: 170px;
     height: 25%;
   }
 
   .second {
-    padding-top: 45px;
+    margin-top: -16px;
+    margin-left: 140px;
   }
 }
