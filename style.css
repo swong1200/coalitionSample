@@ -42,11 +42,11 @@ nav {
 }
 
 #history {
-  padding-right: 2.8125em;
+  padding-right: 45px;
 }
 
 #team {
-  padding-right: 20em;
+  padding-right: 320px;
 }
 
 .history {
@@ -114,7 +114,7 @@ nav {
 
 .climb {
   background-size: cover;
-  height: 11.5625em;
+  height: 185px;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -316,112 +316,51 @@ nav {
   padding-top: 45px;
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and below) */
 @media (max-width: 576px) {
   header {
-    background-image: url("images/img1.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    height: 51.5625em;
-
-    color: #fff;
-  }
-
-  /* @media (max-width: 768px) {
-    header {
-      background-size: contain;
-      background-position: top;
-    }
-  } */
-
-  /* // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) { ... }
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) { ... } */
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .nav-menu li {
-    display: inline-block;
-    font-family: "Lato", sans-serif;
-    font-style: italic;
-    font-size: 1em;
-  }
-
-  .nav-menu li a {
-    color: inherit;
-  }
-
-  .first {
-    padding-top: 1.25em;
+    background-size: 640px 360px;
+    background-position: left top;
   }
 
   #logo1 {
-    padding-left: 20%;
     height: fit-content;
-    width: 23%;
+    width: 20%;
+    margin-left: -120px;
   }
 
   #history {
-    padding-right: 2.8125em;
+    padding-right: 45px;
   }
 
   #team {
-    padding-right: 20em;
+    padding-right: 640px;
   }
 
   .history {
-    background-image: url("images/img3.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 56.5625em;
-    display: grid;
-    grid-template-rows: 1fr 1fr minmax(50px, 195px);
+    background-size: 800px 450px;
+    margin-top: -525px;
+    margin-left: -130px;
   }
 
-  /* @media (max-width: 940px) {
-    .history {
-      background-size: contain;
-      margin-top: -500px;
-    }
-  } */
-
   #one {
-    padding-top: 3.73%;
-    /* padding-left: 17.3%; */
-    margin-left: -35%;
+    margin-top: 250px;
   }
 
   .history h1 {
-    font-family: "Oswald", sans-serif;
-    color: #414f6b;
-    font-size: 8.5em;
-    opacity: 0.5;
+    font-size: 6em;
   }
 
   .history h2 {
-    font-family: "Oswald", sans-serif;
-    color: #414f6b;
-    font-size: 2em;
-    position: relative;
-    top: -2.65em;
-    left: 4.1em;
+    font-size: 1.5em;
+    top: 60px;
   }
 
   .history p {
-    font-family: "Lato", sans-serif;
-    font-size: 1em;
-    margin: -8.75em 23.4375em 23.4375em 23.4375em;
-    position: relative;
-    /* top: -8.75em; */
-    /* left: 23.4375em; */
-    /* right: 23.4375em; */
+    font-size: 0.6em;
+    padding-right: 250px;
+    padding-left: 80px;
+    margin-top: -130px;
   }
 
   #slideshow {
@@ -451,98 +390,58 @@ nav {
 
   .climb {
     background-size: cover;
-    height: 11.5625em;
+    height: 100px;
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
 
-  #one {
-    padding-left: 52%;
+  #two {
+    margin-left: 20px;
   }
 
   .climb h1 {
-    font-family: "Oswald", sans-serif;
-    color: #414f6b;
-    font-size: 8.5em;
-    position: relative;
-    opacity: 0.5;
+    font-size: 6em;
   }
 
   .climb h2 {
-    font-family: "Oswald", sans-serif;
-    color: #414f6b;
-    font-size: 2em;
+    font-size: 1.5em;
     position: relative;
-    top: -2.65em;
-    left: 7.6em;
+    left: 105px;
   }
 
   .climb p {
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    padding: 100px;
-    margin-top: -35px;
-    margin-left: -140px;
+    font-size: 0.6em;
+    padding: 0;
+    margin-top: -70px;
+    margin-left: -350px;
   }
 
   .mountain {
-    background-color: #414f6b;
-    background-size: cover;
-    height: 40px;
+    margin-left: -50px;
   }
 
   .mountain h2 {
-    font-family: "Oswald", sans-serif;
-    color: #afb3bd;
-    font-size: 20px;
-    position: relative;
-    top: 8px;
+    font-size: 1.25em;
   }
 
   #mountain1 {
-    background-color: #afb3bd;
-    position: relative;
-    left: 320px;
-    height: 40px;
-    padding: 0px 20px;
-  }
-
-  #mountain1 h2 {
-    color: #414f6b;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
-  #mountain2 {
-    position: relative;
-    left: 330px;
-    padding: 0px 20px;
-  }
-
-  #mountain2 h2 {
-    cursor: pointer;
+    margin-left: -100px;
   }
 
   .schedule {
-    background-image: url("images/img5.png");
-    background-size: cover;
-    height: 545px;
-    display: flex;
+    margin-left: -50px;
   }
 
   .calendar {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 350px;
-    height: 230px;
-    position: relative;
-    top: 100px;
-    left: 350px;
+    width: 300px;
+    height: 200px;
+    margin-left: -65px;
   }
 
   .calendar h2 {
     font-family: "Oswald", sans-serif;
     color: #414f6b;
-    font-size: 32px;
+    font-size: 1.5em;
     position: relative;
     top: 20px;
     left: 40px;
@@ -556,6 +455,7 @@ nav {
   .calendar ul li {
     list-style: none;
     font-family: "Lato", sans-serif;
+    font-size: 0.8em;
   }
 
   #dates {
@@ -564,26 +464,20 @@ nav {
   }
 
   .schedule2 {
-    background-image: url("images/img6.png");
-    background-size: cover;
-    height: 545px;
-    display: flex;
-    display: none;
+    margin-left: -50px;
   }
 
   .calendar2 {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 350px;
-    height: 230px;
-    position: relative;
-    top: 100px;
-    left: 350px;
+    width: 300px;
+    height: 200px;
+    margin-left: -65px;
   }
 
   .calendar2 h2 {
     font-family: "Oswald", sans-serif;
     color: #414f6b;
-    font-size: 32px;
+    font-size: 1.5em;
+
     position: relative;
     top: 20px;
     left: 40px;
@@ -597,6 +491,7 @@ nav {
   .calendar2 ul li {
     list-style: none;
     font-family: "Lato", sans-serif;
+    font-size: 0.8em;
   }
 
   #dates2 {
@@ -653,7 +548,7 @@ nav {
     padding-top: 45px;
   }
 }
-/* Medium devices (tablets, 801px and up) */
+/* Medium devices (tablets, 801px and below) */
 @media (max-width: 801px) {
   .container-fluid {
     overflow-x: hidden;
