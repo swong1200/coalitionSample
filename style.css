@@ -368,33 +368,13 @@ nav {
   }
 
   #slideshow {
-    background-color: #414f6b;
-    width: 100%;
-    opacity: 0.8;
-  }
-
-  .carousel-inner {
-    padding: 25px 459px;
-  }
-
-  .carousel-item img {
-    width: 235px;
-    height: 135px;
-    object-fit: cover;
-    padding-left: 3px;
-    padding-right: 3px;
-  }
-
-  .carousel-indicators li {
-    margin-bottom: -18px;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
+    height: 150px;
+    margin-top: -243px;
   }
 
   .climb {
-    background-size: cover;
-    height: 100px;
+    margin-top: -220px;
+    height: 1px;
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
@@ -422,6 +402,7 @@ nav {
 
   .mountain {
     margin-left: -50px;
+    margin-top: -50px;
   }
 
   .mountain h2 {
@@ -530,18 +511,18 @@ nav {
     display: inline;
     position: relative;
     top: 40px;
-    left: 90px;
+    left: 105px;
   }
 
   .carousel-item img {
-    width: 145px;
+    width: 135px;
     height: 85px;
   }
 
   .carousel-indicators li {
     position: relative;
     top: 40px;
-    left: -125px;
+    left: -130px;
   }
 
   .climb {
