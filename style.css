@@ -329,6 +329,10 @@ nav {
     margin-left: -120px;
   }
 
+  .first li {
+    font-size: 0.9em;
+  }
+
   #history {
     padding-right: 45px;
   }
@@ -439,28 +443,11 @@ nav {
   }
 
   .calendar h2 {
-    font-family: "Oswald", sans-serif;
-    color: #414f6b;
     font-size: 1.5em;
-    position: relative;
-    top: 20px;
-    left: 40px;
-  }
-
-  .calendar ul {
-    position: relative;
-    top: 20px;
   }
 
   .calendar ul li {
-    list-style: none;
-    font-family: "Lato", sans-serif;
     font-size: 0.8em;
-  }
-
-  #dates {
-    position: relative;
-    left: 40px;
   }
 
   .schedule2 {
@@ -474,78 +461,37 @@ nav {
   }
 
   .calendar2 h2 {
-    font-family: "Oswald", sans-serif;
-    color: #414f6b;
     font-size: 1.5em;
-
-    position: relative;
-    top: 20px;
-    left: 40px;
-  }
-
-  .calendar2 ul {
-    position: relative;
-    top: 20px;
   }
 
   .calendar2 ul li {
-    list-style: none;
-    font-family: "Lato", sans-serif;
     font-size: 0.8em;
   }
 
-  #dates2 {
-    position: relative;
-    left: 40px;
-  }
-
   .footer {
-    background-color: #414f6b;
-    background-size: cover;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
+    justify-content: left;
   }
 
   #logo3 {
-    margin-top: 15px;
-    padding-left: 330px;
-    width: 26.3%;
-    height: 42px;
-    object-fit: cover;
+    margin-left: 5px;
   }
 
   .footer p {
-    font-family: "Lato", sans-serif;
-    font-style: italic;
-    color: #63769d;
-    padding-right: 300px;
-    padding-top: 25px;
-  }
-
-  .push {
-    height: 112px;
-  }
-
-  .stickyNav {
-    background-color: #fff;
-    background-size: cover;
-    height: 112px;
-    color: #414f6b;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    font-size: 0.9em;
+    padding-right: 100px;
+    margin-right: 400px;
   }
 
   #logo2 {
-    padding-top: 35px;
-    padding-left: 340px;
-    height: 25%;
+    margin-left: -170px;
   }
 
   .second {
-    padding-top: 45px;
+    margin-left: -280px;
+  }
+
+  .second li {
+    font-size: 0.9em;
   }
 }
 /* Medium devices (tablets, 801px and below) */
@@ -577,25 +523,25 @@ nav {
   }
 
   .slideshow {
-    height: 5px;
+    display: flex;
   }
 
-  /* .carousel-inner {
-  } */
+  .carousel-inner {
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 90px;
+  }
 
   .carousel-item img {
-    width: 85px;
-    height: 55px;
-    object-fit: cover;
-    padding-left: 0px;
-    padding-right: 0px;
+    width: 145px;
+    height: 85px;
   }
 
   .carousel-indicators li {
-    margin-bottom: -18px;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: -125px;
   }
 
   .climb {
