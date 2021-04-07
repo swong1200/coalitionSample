@@ -403,6 +403,7 @@ nav {
   .mountain {
     margin-left: -50px;
     margin-top: -50px;
+    transition: height 0.4s;
   }
 
   .mountain h2 {
@@ -411,10 +412,17 @@ nav {
 
   #mountain1 {
     margin-left: -100px;
+    background-color: #414f6b;
+  }
+
+  #mountain1 h2 {
+    color: #afb3bd;
+    text-decoration: none;
   }
 
   .schedule {
     margin-left: -50px;
+    display: none;
   }
 
   .calendar {
